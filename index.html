@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michal's Curriculum Vitae</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        margin: 20px 0;
+      }
+      .pdf-container {
+        width: 100%;
+        height: 90vh;
+        max-width: 1000px;
+      }
+      .pdf-object {
+        width: 100%;
+        height: 100%;
+        border: 1px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Curriculum Vitae</h1>
+    <div class="pdf-container">
+      <object class="pdf-object" data="Michal_CV.pdf" type="application/pdf">
+        <p>
+          It appears your browser doesn't support embedded PDFs. You can
+          <a href="Michal_CV.pdf">download the CV</a> instead.
+        </p>
+      </object>
+    </div>
+  </body>
+</html>
